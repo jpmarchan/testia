@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Mic, StopCircle, Loader2, Volume2, User, Gavel } from 'lucide-react';
 
 // URL de tu endpoint de backend que recibe TEXTO y devuelve AUDIO TTS
-const TEXT_QUERY_URL = "http://localhost:8000/api/text_query";
+const TEXT_QUERY_URL = "https://286272f9581f.ngrok-free.app/api/text_query";
 
 const VoiceAssistant = () => {
     // === ESTADOS ===
